@@ -1,0 +1,62 @@
+# .gitignore for a Java/Maven project
+# Ignore build output
+target/
+
+# Maven
+/.settings/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.releaseBackup
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+/.classpath
+/.project
+
+# IntelliJ out folder
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+tmp/
+temp/
+
+# Environment files
+.env
+local.properties
+
+# Generated sources
+generated-sources/
+target/generated-sources/
+
+# Maven wrapper and gradle caches (if present)
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+
+# JetBrains coverage and caches
+.idea/**/coverage/
+
+# Eclipse metadata
+.metadata/
+
